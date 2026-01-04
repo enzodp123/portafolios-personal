@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Enzo — Full-Stack Web Developer</title>
+    <meta name="description" content="Portfolio personal de Enzo — Full-Stack Web Developer. Proyectos, habilidades y contacto."/>
+    <meta name="theme-color" content="#0b1220" />
+    <link rel="shortcut icon" href="assets/logo png.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <!-- Fondo de colores  -->
+    <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+      <div class="absolute -top-24 left-1/2 h-72 w-[44rem] -translate-x-1/2 rounded-full bg-slate-200/60 blur-3xl dark:bg-slate-800/40"></div>
+      <div class="absolute top-64 left-1/2 h-72 w-[44rem] -translate-x-1/2 rounded-full bg-slate-200/40 blur-3xl dark:bg-slate-800/30"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-40 border-b border-slate-200/60 bg-white/70 backdrop-blur dark:border-slate-800/60 dark:bg-slate-950/70">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#top" class="flex items-center gap-2 font-semibold tracking-tight">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-950">
+            <!-- MONOGRAMA -->
+            <img src="assets/logo png.png" alt="">
+          </span>
+          <span>Enzo</span>
+        </a>
+        <!--lIST-->
+        <nav class="hidden items-center gap-6 text-sm text-slate-600 dark:text-slate-300 md:flex">
+          <a class="hover:text-slate-900 dark:hover:text-white" href="#about">Sobre mí</a>
+          <a class="hover:text-slate-900 dark:hover:text-white" href="#projects">Proyectos</a>
+          <a class="hover:text-slate-900 dark:hover:text-white" href="#contact">Contacto</a>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <a
+            href="#contact"
+            class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-medium text-white shadow-soft hover:bg-slate-800 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-100"
+          >
+            Hablemos
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="mx-auto max-w-6xl px-4 pt-14 pb-10 md:pt-20 md:pb-16">
+        <div class="grid gap-10 md:grid-cols-12 md:items-center">
+          <div class="md:col-span-7">
+            <p class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs text-slate-600 shadow-sm dark:border-slate-800 dark:bg-slate-950 dark:text-slate-300">
+              <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+              Disponible para proyectos web
+            </p>
+
+            <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">
+              Enzo — <span class="text-slate-500 dark:text-slate-300">Full-Stack Web Developer</span>
+            </h1>
+
+            <p class="mt-4 max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+              Construyo websites y aplicaciones web funcionales, rápidas y mantenibles.
+              Minimalismo visual, foco en producto y código limpio.
+            </p>
+
+            <div class="mt-6 flex flex-wrap items-center gap-3">
+              <a
+                href="#projects"
+                class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white shadow-soft hover:bg-slate-800 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-100"
+              >
+                Ver proyectos
+              </a>
+              <a
+                href="#contact"
+                class="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-800 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200 dark:hover:bg-slate-900"
+              >
+                Contacto
+              </a>
+
+              <div class="flex flex-wrap gap-2 text-s text-slate-600 dark:text-slate-300">
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">Web institucional</span>
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">Landing pages</span>
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">E-commerce</span>
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">Web a medida</span>
+              </div>
+            </div>
+
+            <div class="mt-8 flex flex-wrap gap-4 text-sm text-slate-600 dark:text-slate-300">
+              <a class="hover:text-slate-900 dark:hover:text-white" href="https://github.com/enzodp123" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="hover:text-slate-900 dark:hover:text-white" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="hover:text-slate-900 dark:hover:text-white" href="mailto:tuemail@ejemplo.com">enzo.dpstudio@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="md:col-span-5">
+            <!-- Card resumen -->
+            <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft dark:border-slate-800 dark:bg-slate-950">
+              <div class="flex items-start justify-between gap-4">
+                <div>
+                  <p class="text-sm text-slate-600 dark:text-slate-300">Enfoque</p>
+                  <p class="mt-1 text-xl font-semibold tracking-tight">Webs con impacto</p>
+                </div>
+                <span class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
+                  Minimal UI
+                </span>
+              </div>
+
+              <ul class="mt-5 space-y-3 text-sm text-slate-700 dark:text-slate-200">
+                <li class="flex gap-3">
+                  <span class="mt-1 inline-flex h-2 w-2 rounded-full bg-slate-900 dark:bg-white"></span>
+                  Diseño limpio, responsive y accesible.
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 inline-flex h-2 w-2 rounded-full bg-slate-900 dark:bg-white"></span>
+                  Buenas prácticas: semántica, performance, SEO básico.
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 inline-flex h-2 w-2 rounded-full bg-slate-900 dark:bg-white"></span>
+                  Código mantenible y entregas publicadas (deploy).
+                </li>
+              </ul>
+
+              <div class="mt-6 grid grid-cols-3 gap-3">
+                <div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center dark:border-slate-800 dark:bg-slate-900">
+                  <p class="text-xs text-slate-600 dark:text-slate-300">Proyectos</p>
+                  <p class="mt-1 text-lg font-semibold">10+</p>
+                </div>
+                <div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center dark:border-slate-800 dark:bg-slate-900">
+                  <p class="text-xs text-slate-600 dark:text-slate-300">Stack</p>
+                  <p class="mt-1 text-lg font-semibold">Web</p>
+                </div>
+                <div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center dark:border-slate-800 dark:bg-slate-900">
+                  <p class="text-xs text-slate-600 dark:text-slate-300">Ubicación</p>
+                  <p class="mt-1 text-lg font-semibold">AR</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <div class="grid gap-8 md:grid-cols-12">
+          <div class="md:col-span-5">
+            <h2 class="text-2xl font-semibold tracking-tight">Sobre mí</h2>
+            <p class="mt-3 text-slate-600 dark:text-slate-300">
+              Me enfoco en construir interfaces limpias con buenas bases (semántica, responsive, accesibilidad)
+              y en conectar todo con lógica del lado servidor cuando hace falta.
+            </p>
+          </div>
+
+          <div class="md:col-span-7">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+                <p class="text-sm font-medium">Lo que hago</p>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                  Websites y apps web: landing pages, portfolios, dashboards simples, integración con APIs.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+                <p class="text-sm font-medium">Cómo trabajo</p>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                  Priorizo claridad: objetivos, estructura, componentes reutilizables y despliegue rápido.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+                <p class="text-sm font-medium">Tecnologías</p>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                  Tailwind, JavaScript. (Sumable: React, Node/Express, Mongo/Postgres.), astro, ect.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+                <p class="text-sm font-medium">Ahora mismo</p>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                  Armando proyectos reales y publicándolos. Busco mejorar performance, UX y testing básico.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 class="text-2xl font-semibold tracking-tight">Proyectos</h2>
+            <p class="mt-2 text-slate-600 dark:text-slate-300">
+              Elegí pocos, buenos y publicados. Cambiá estos placeholders por tus proyectos reales.
+            </p>
+          </div>
+          <a
+            href="https://github.com/enzodp123"
+            target="_blank"
+            rel="noreferrer"
+            class="inline-flex w-fit items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-800 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200 dark:hover:bg-slate-900"
+          >
+            Ver GitHub →
+          </a>
+        </div>
+
+        <div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <article class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-soft dark:border-slate-800 dark:bg-slate-950">
+            <div class="flex items-start justify-between gap-3">
+              <h3 class="text-lg font-semibold tracking-tight">Portfolio Minimal</h3>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
+                UI
+              </span>
+            </div>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              Portfolio personal con layout limpio, responsive y modo oscuro. Hecho con HTML + Tailwind.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">HTML</span>
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">Tailwind</span>
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">JS</span>
+            </div>
+            <div class="mt-5 flex gap-3">
+              <a href="#" class="text-sm font-medium text-slate-900 hover:underline dark:text-white">Live</a>
+              <a href="#" class="text-sm font-medium text-slate-600 hover:underline dark:text-slate-300">Code</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-soft dark:border-slate-800 dark:bg-slate-950">
+            <div class="flex items-start justify-between gap-3">
+              <h3 class="text-lg font-semibold tracking-tight">Landing de Negocio</h3>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
+                Landing
+              </span>
+            </div>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              Página de presentación con CTA, sección de servicios y testimonios. Optimizada para mobile.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">HTML</span>
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">Tailwind</span>
+            </div>
+            <div class="mt-5 flex gap-3">
+              <a href="#" class="text-sm font-medium text-slate-900 hover:underline dark:text-white">Live</a>
+              <a href="#" class="text-sm font-medium text-slate-600 hover:underline dark:text-slate-300">Code</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-soft dark:border-slate-800 dark:bg-slate-950">
+            <div class="flex items-start justify-between gap-3">
+              <h3 class="text-lg font-semibold tracking-tight">Mini App (To-Do)</h3>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
+                App
+              </span>
+            </div>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              CRUD simple en el navegador: crear, completar y filtrar tareas (persistencia con localStorage).
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">JS</span>
+              <span class="rounded-full border border-slate-200 bg-white px-3 py-1 dark:border-slate-800 dark:bg-slate-950">Tailwind</span>
+            </div>
+            <div class="mt-5 flex gap-3">
+              <a href="#" class="text-sm font-medium text-slate-900 hover:underline dark:text-white">Live</a>
+              <a href="#" class="text-sm font-medium text-slate-600 hover:underline dark:text-slate-300">Code</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-soft dark:border-slate-800 dark:bg-slate-950 md:p-10">
+          <div class="grid gap-8 md:grid-cols-12 md:items-center">
+            <div class="md:col-span-7">
+              <h2 class="text-2xl font-semibold tracking-tight">Contacto</h2>
+              <p class="mt-3 text-slate-600 dark:text-slate-300">
+                Si querés que te arme una web minimal, rápida y prolija, escribime y te respondo.
+              </p>
+
+              <div class="mt-6 flex flex-wrap gap-3">
+                <a
+                   href="https://mail.google.com/mail/?view=cm&to=enzo.dpstudio@gmail.com&su=Consulta%20web"
+                   target="_blank"
+                   class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white shadow-soft hover:bg-slate-800 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-100"
+                >
+                  Enviar email
+                </a>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-800 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200 dark:hover:bg-slate-900"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+
+            <div class="md:col-span-5">
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
+                <p class="text-sm font-medium">Datos</p>
+                <div class="mt-3 space-y-2 text-sm text-slate-700 dark:text-slate-200">
+                  <p><span class="text-slate-500 dark:text-slate-300">Email:</span> enzo.dpstudio@gmail.com</p>
+                  <p><span class="text-slate-500 dark:text-slate-300">GitHub:</span> enzodp123</p>
+                  <p><span class="text-slate-500 dark:text-slate-300">Ubicación:</span> Argentina</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mx-auto max-w-6xl px-4 pb-10">
+        <div class="flex flex-col items-start justify-between gap-3 border-t border-slate-200 pt-6 text-sm text-slate-600 dark:border-slate-800 dark:text-slate-300 sm:flex-row sm:items-center">
+          <p>© <span id="year"></span> enzoDev</p>
+          <div class="flex gap-4">
+            <a class="hover:text-slate-900 dark:hover:text-white" href="#top">Arriba</a>
+            <a class="hover:text-slate-900 dark:hover:text-white" href="#projects">Proyectos</a>
+            <a class="hover:text-slate-900 dark:hover:text-white" href="#contact">Contacto</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      // Año automático
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Tema: persiste en localStorage
+      const root = document.documentElement;
+      const btn = document.getElementById("themeToggle");
+      const icon = document.getElementById("themeIcon");
+
+      function setTheme(mode) {
+        if (mode === "dark") {
+          root.classList.add("dark");
+          icon.textContent = "🌙";
+          localStorage.setItem("theme", "dark");
+        } else {
+          root.classList.remove("dark");
+          icon.textContent = "☀️";
+          localStorage.setItem("theme", "light");
+        }
+      }
+
+      const saved = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      setTheme(saved ? saved : (prefersDark ? "dark" : "light"));
+
+      btn.addEventListener("click", () => {
+        const isDark = root.classList.contains("dark");
+        setTheme(isDark ? "light" : "dark");
+      });
+    </script>
+  </body>
+  <script src="app.js"></script>
+</html>
